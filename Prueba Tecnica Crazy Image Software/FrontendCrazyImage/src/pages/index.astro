@@ -1,0 +1,18 @@
+---
+import RMain from '../components/RMain.tsx'
+import '../styles/global.css' 
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<meta name="viewport" content="initial-scale=1, width=device-width" />
+		<title>Astro</title>
+	</head>
+	<body>
+		<RMain client:load/>
+	</body>
+</html>
